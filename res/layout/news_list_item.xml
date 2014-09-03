@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/news_item_img"
+        android:layout_width="76dp"
+        android:layout_height="70dp"
+        android:contentDescription="@string/hello_world"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/news_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="16家上市银行不良余额齐升"
+            android:textColor="#171717"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/news_item_abstract"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="3dp"
+            android:maxLines="2"
+            android:paddingTop="5dp"
+            android:text="16家上市银行不良余额齐升16家上市银行不良余额齐升16家上市银行不良余额齐升"
+            android:textColor="#4A4A4A"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>
