@@ -1,3 +1,5 @@
+依赖 SliddingMenu   ViewPagerIndicator
+
 首页布局：
 
 1 SliddingMenu + ViewPagerIndicator
